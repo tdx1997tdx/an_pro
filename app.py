@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/test',methods=['GET','POST'])
 def test():
-    if(str(request.data)=="我好牛逼"):
+    if(request.form.get('data1')=="我好牛逼"):
         return '你好牛逼'
     return '你不牛逼'
 
