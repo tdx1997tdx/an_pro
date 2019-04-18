@@ -6,6 +6,7 @@ welcome=Blueprint("welcome",__name__)
 def login():
     username = request.form.get('username')
     password = request.form.get('password')
+    print(username,password)
     if(username==None):
         return 'NOTOK'
     elif(password==None):
