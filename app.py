@@ -1,6 +1,7 @@
-from flask import Flask,request
-
+from flask import Flask,Request,request,render_template,redirect,url_for,session
+from welcome import welcome
 app = Flask(__name__)
+app.register_blueprint(welcome)
 
 @app.route('/',methods=['GET','POST'])
 def hello_world():
