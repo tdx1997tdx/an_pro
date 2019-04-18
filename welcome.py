@@ -6,6 +6,10 @@ welcome=Blueprint("welcome",__name__)
 def login():
     username = request.form.get('username')
     password = request.form.get('password')
+    if(username==None):
+        return 'NOTOK'
+    elif(password==None):
+        return 'NOTOK'
     result = [i for i in op.select("select * from user where username='%s' and password='%s'"%(username,password))]
     if(result==[]):
         return 'NOTOK'
@@ -16,8 +20,11 @@ def login():
 def register():
     username = request.form.get('username')
     password = request.form.get('password')
+    if (username == None):
+        return 'RNOTOK'
+    elif (password == None):
+        return 'RNOTOK'
     result = [i for i in op.select("select * from user where username='%s'"%(username))]
-    print(username,password)
     if(result==[]):
         if(op.insert("insert into user (username,password) values ('%s','%s')"%(username,password))):
             return 'ROK'
