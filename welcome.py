@@ -19,7 +19,7 @@ def register():
     result = [i for i in op.select("select * from user where username='%s'"%(username))]
     print(username,password)
     if(result==[]):
-        if(op.insert("insert into 'user'('username','password') value ('%s','%s')"%(username,password))):
+        if(op.insert("insert into user (username,password) values ('%s','%s')"%(username,password))):
             return 'ROK'
         else:
             return 'RNOTOK'

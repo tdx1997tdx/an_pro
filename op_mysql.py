@@ -21,7 +21,8 @@ def insert(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='
     try:
         cursor.execute(sql)
         conn.commit()
-    except:
+    except Exception as e:
+        print(e)
         # 发生错误时回滚
         conn.rollback()
         return False
@@ -71,3 +72,5 @@ def delete(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='
 
 #x=[i for i in select("select * from user",host="107.175.17.248")]
 #print(x)
+
+#print(insert("insert into user (username,password) values ('%s','%s')"%('tang23','tang2'),host="107.175.17.248"))
