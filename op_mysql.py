@@ -18,12 +18,18 @@ def insert(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='
     conn = pymysql.connect(host=host, port=port, user=user, passwd=passwd, db=db)
     cursor = conn.cursor()
     # 执行SQL语句
-    cursor.execute(sql)
-    conn.commit()
+    try:
+        cursor.execute(sql)
+        conn.commit()
+    except:
+        # 发生错误时回滚
+        conn.rollback()
+        return False
     # 关闭游标
     cursor.close()
     # 关闭连接
     conn.close()
+    return True
 
 def update(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='cs304_project'):
     conn = pymysql.connect(host=host, port=port, user=user, passwd=passwd, db=db)
@@ -37,10 +43,12 @@ def update(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='
     except:
         # 发生错误时回滚
         conn.rollback()
+        return False
     # 关闭游标
     cursor.close()
     # 关闭连接
     conn.close()
+    return True
 
 def delete(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='cs304_project'):
     conn = pymysql.connect(host=host, port=port, user=user, passwd=passwd, db=db)
@@ -54,10 +62,12 @@ def delete(sql,host='127.0.0.1', port=3306, user='tang', passwd='dexuan97', db='
     except:
         # 发生错误时回滚
         conn.rollback()
+        return False
     # 关闭游标
     cursor.close()
     # 关闭连接
     conn.close()
+    return True
 
-#x=[i for i in select("select * from user where username='kkk'",host="107.175.17.248")]
+#x=[i for i in select("select * from user",host="107.175.17.248")]
 #print(x)
