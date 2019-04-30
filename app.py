@@ -1,11 +1,13 @@
-from flask import Flask,Request,request,render_template,redirect,url_for,session
-from welcome import welcome
+from flask import Flask, request
+from route.welcome import welcome_page
+from route.homepage import homepage_page
 app = Flask(__name__)
-app.register_blueprint(welcome)
+app.register_blueprint(welcome_page)
+app.register_blueprint(homepage_page)
 
 @app.route('/',methods=['GET','POST'])
 def hello_world():
-    return 'hellow world'
+    return '欢迎来到cs_304期末project'
 
 @app.route('/test',methods=['GET','POST'])
 def test():
