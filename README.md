@@ -58,7 +58,7 @@ name: xxxxx
 new_mail: xxxxxxx  
 后端给前端的数字：  
 1： 成功  
-2： 失败，邮箱用户名不匹配  
+2： 失败，邮箱不合法  
 网址： /change_mail_verification  
 前端给后端的表单：  
 name: xxxxx  
