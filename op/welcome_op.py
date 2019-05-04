@@ -19,8 +19,10 @@ def register_op(name, mail, conn=mci.get_now_conn_info()):
         return '3'
 
     if(ms.send_email(name, mail)):
+        print('1')
         return '1'
     else:
+        print('4')
         return '4'
 
 def register_verification_op(username,password,mail,v_code, conn=mci.get_now_conn_info()):
