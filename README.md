@@ -37,9 +37,8 @@ new_password: xxxxx
 mail: xxxxxxx  
 后端给前端的数字：  
 1： 用户以及邮箱匹配成功  
-2： 失败，用户名不存在  
-3： 失败，邮箱用户名不匹配  
-4： 邮箱不合法  
+2： 失败，邮箱或者用户名不匹配或不存在
+3： 邮箱不合法  
   
 网址： /change_password_verification  
 前端给后端的表单：  
