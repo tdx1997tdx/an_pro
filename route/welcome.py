@@ -18,6 +18,9 @@ def register():
     username = request.form.get('name')
     password = request.form.get('password')
     mail = request.form.get('mail')
+    print(username)
+    print(password)
+    print(mail)
     if (username or password or mail):
         return '2'
     return wop.register_op(username,mail)
