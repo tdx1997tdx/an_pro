@@ -1,7 +1,7 @@
 # cs_304_project_backend
 ## 登陆注册界面
 ### 注册
-网址： /register
+网址： /register  
 前端给后端的表单：  
 name: xxxxx  
 password: xxxxx  
@@ -11,7 +11,7 @@ mail: xxxxxxx
 2： 注册失败用户名已存在  
 3： 注册失败邮箱已存在  
   
-网址： /login_verification
+网址： /login_verification  
 前端给后端的表单：  
 name: xxxxx  
 verification_code: xxxxxxx  
@@ -19,7 +19,7 @@ verification_code: xxxxxxx
 1： 注册成功  
 2： 注册失败，验证码错误  
 ### 登陆
-网址： /login
+网址： /login  
 前端给后端的表单：  
 name: xxxxx  
 password: xxxxx  
