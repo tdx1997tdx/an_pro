@@ -1,6 +1,6 @@
 import unittest
 from basic_mysql_op import mysql_conn_info as mci
-from mysql_op import welcome_mysql_op as wmo
+from op import welcome_op as wmo
 import requests
 
 class WelcomeTest(unittest.TestCase):

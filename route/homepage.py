@@ -1,13 +1,15 @@
 from flask import Blueprint, request
-from mysql_op import welcome_mysql_op as wop
+from op import homepage_op as ho
 
 homepage_page=Blueprint("homepage_page",__name__)
 
-@homepage_page.route('/update_infomation',methods=['GET','POST'])
-def update_infomation():
-    username = request.form.get('username')
-    password = request.form.get('password')
-    print(username,password)
-    if(username or password):
-        return 'NOTOK'
-    return wop.login_mysql_op(username,password)
+@homepage_page.route('/change_inside_password',methods=['GET','POST'])
+def change_inside_password():
+    name = request.form.get('name')
+    old_password = request.form.get('old_password')
+    new_password = request.form.get('new_password')
+    if(name or old_password or new_password):
+        return '2'
+
+
+    return ho.change_inside_password_op(name,old_password,new_password)
