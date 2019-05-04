@@ -25,8 +25,8 @@ name: xxxxx
 password: xxxxx  
 mail: xxxxxxx  
 后端给前端的东西：  
-1： 验证成功
-2： 验证失败
+1： 验证成功  
+2： 验证失败  
 ### 修改密码
 网址： /change_password  
 前端给后端的表单：  
