@@ -21,9 +21,8 @@ def register():
     print(username)
     print(password)
     print(mail)
-    if (username or password or mail):
-        return '2'
     return wop.register_op(username,mail)
+
 
 @welcome_page.route('/register_verification',methods=['GET','POST'])
 def register_verification():
