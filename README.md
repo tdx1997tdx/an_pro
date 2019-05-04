@@ -33,11 +33,10 @@ password: xxxxx
 网址： /change_password  
 前端给后端的表单：  
 name: xxxxx  
-new_password: xxxxx  
 mail: xxxxxxx  
 后端给前端的数字：  
 1： 用户以及邮箱匹配成功  
-2： 失败，邮箱或者用户名不匹配或不存在
+2： 失败，邮箱或者用户名不匹配或不存在  
 3： 邮箱不合法  
   
 网址： /change_password_verification  
