@@ -8,7 +8,7 @@ def send_email(name,receiver):
     smtp = smtplib.SMTP()
     smtp.connect('smtp.qq.com',25)
     smtp.login('798637048@qq.com', pass2)
-    message='Note Your Life验证码为:'+ v_code
+    message='Note Your Life验证码为:'+ str(v_code)
     try:
         smtp.sendmail('798637048@qq.com', receiver, message.encode('utf-8'))
     except:
