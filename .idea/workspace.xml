@@ -117,24 +117,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="py" value="1036" />
+          <entry key="py" value="1040" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="1036" />
+          <entry key="Python" value="1040" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/route/welcome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -187,15 +187,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1556958783370" expanded="true" signature="334:335" ph="..." />
-                <marker date="1556958783370" expanded="true" signature="1444:1445" ph="..." />
+                <marker date="1556961882757" expanded="true" signature="334:335" ph="..." />
+                <marker date="1556961882757" expanded="true" signature="1444:1445" ph="..." />
               </folding>
             </state>
           </provider>
@@ -279,10 +279,10 @@
         <option value="$PROJECT_DIR$/op/welcome_mysql_op.py" />
         <option value="$PROJECT_DIR$/route/homepage.py" />
         <option value="$PROJECT_DIR$/op/homepage_op.py" />
-        <option value="$PROJECT_DIR$/op/welcome_op.py" />
         <option value="$PROJECT_DIR$/testing/email_test.py" />
         <option value="$PROJECT_DIR$/basic_mail_op/mail_server.py" />
         <option value="$PROJECT_DIR$/route/welcome.py" />
+        <option value="$PROJECT_DIR$/op/welcome_op.py" />
       </list>
     </option>
   </component>
@@ -755,24 +755,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
+    <entry file="file://$PROJECT_DIR$/route/welcome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1556958783370" expanded="true" signature="334:335" ph="..." />
-            <marker date="1556958783370" expanded="true" signature="1444:1445" ph="..." />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/route/welcome.py">
+    <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1556961882757" expanded="true" signature="334:335" ph="..." />
+            <marker date="1556961882757" expanded="true" signature="1444:1445" ph="..." />
           </folding>
         </state>
       </provider>

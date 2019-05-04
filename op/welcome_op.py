@@ -6,7 +6,7 @@ from basic_mail_op import temp_storage as ts
 def login_op(username,password,conn=mci.get_now_conn_info()):
     sql="select * from user where username='%s' and password='%s'" % (username, password)
     result = [i for i in mop.select(sql, conn=conn)]
-    return '2' if not result else '1'
+    return '2' if result==[] else '1'
 
 def register_op(name, mail, conn=mci.get_now_conn_info()):
     name_sql="select * from user where username='%s'" % (name)
