@@ -11,7 +11,6 @@ def login_op(username,password,conn=mci.get_now_conn_info()):
 def register_op(name, mail, conn=mci.get_now_conn_info()):
     name_sql="select * from user where username='%s'" % (name)
     name_result = [i for i in mop.select(name_sql, conn=conn)]
-    print(name_result)
     if name_result!=[]:
         return '2'
     mail_sql = "select * from user where mail='%s'" % (mail)

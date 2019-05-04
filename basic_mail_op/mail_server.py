@@ -7,10 +7,12 @@ def send_email(name,receiver):
     v_code = random.randint(1000, 9999)
     smtp = smtplib.SMTP()
     smtp.connect('smtp.qq.com',25)
+    print('连接成功')
     smtp.login('798637048@qq.com', pass2)
-    message='Note Your Life验证码为:'+ str(v_code)
+    message='Note Your Life的验证码为:'+ str(v_code)
     try:
         smtp.sendmail('798637048@qq.com', receiver, message.encode('utf-8'))
+        print('ok')
     except:
         return False
     smtp.quit()
