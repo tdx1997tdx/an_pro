@@ -14,11 +14,7 @@ def login():
 @welcome_page.route('/register',methods=['GET','POST'])
 def register():
     username = request.form.get('name')
-    password = request.form.get('password')
     mail = request.form.get('mail')
-    print(username)
-    print(password)
-    print(mail)
     return wop.register_op(username,mail)
 
 
@@ -28,6 +24,10 @@ def register_verification():
     password = request.form.get('password')
     mail = request.form.get('mail')
     v_code = request.form.get('verification_code')
+    print(username)
+    print(password)
+    print(mail)
+    print(v_code)
     return wop.register_verification_op(username,password,mail,int(v_code))
 
 
