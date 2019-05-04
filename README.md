@@ -14,6 +14,8 @@ mail: xxxxxxx
 网址： /register_verification  
 前端给后端的表单：  
 name: xxxxx  
+password: xxxxx  
+mail: xxxxxxx  
 verification_code: xxxxxxx  
 后端给前端的数字：  
 1： 注册成功  
@@ -41,6 +43,7 @@ mail: xxxxxxx
 网址： /change_password_verification  
 前端给后端的表单：  
 name: xxxxx  
+new_password: xxxxx  
 verification_code: xxxxxxx  
 后端给前端的数字：  
 1： 修改成功  
@@ -57,6 +60,7 @@ new_mail: xxxxxxx
 网址： /change_mail_verification  
 前端给后端的表单：  
 name: xxxxx  
+new_mail: xxxxxxx  
 verification_code: xxxxxxx  
 后端给前端的数字：  
 1： 修改成功  
@@ -64,8 +68,8 @@ verification_code: xxxxxxx
 ### 修改密码
 网址： /change_inside_password  
 前端给后端的表单：  
-name: xxxxx
-old_password: xxxx
+name: xxxxx  
+old_password: xxxx  
 new_password: xxxxxxx  
 后端给前端的数字：  
 1： 修改成功  
