@@ -3,6 +3,15 @@ from op import homepage_op as ho
 
 homepage_page=Blueprint("homepage_page",__name__)
 
+@homepage_page.route('/change_mail',methods=['GET','POST'])
+def change_mail():
+    name = request.form.get('name')
+    new_mail = request.form.get('old_password')
+    if(name or new_mail):
+        return '2'
+    return ho.change_mail_op(name,new_mail)
+
+
 @homepage_page.route('/change_inside_password',methods=['GET','POST'])
 def change_inside_password():
     name = request.form.get('name')

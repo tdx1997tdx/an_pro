@@ -117,13 +117,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="py" value="878" />
+          <entry key="py" value="914" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="878" />
+          <entry key="Python" value="914" />
         </counts>
       </usages-collector>
     </session>
@@ -175,15 +175,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="52" column="22" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1556955055008" expanded="true" signature="334:335" ph="..." />
-                <marker date="1556955055008" expanded="true" signature="1406:1407" ph="..." />
+                <marker date="1556957712535" expanded="true" signature="334:335" ph="..." />
+                <marker date="1556957712535" expanded="true" signature="1406:1407" ph="..." />
               </folding>
             </state>
           </provider>
@@ -192,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/route/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="152">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -201,13 +201,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/op/homepage_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="107" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+            <state relative-caret-position="171">
+              <caret line="9" column="91" lean-forward="true" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <marker date="1556957645366" expanded="true" signature="305:316" ph="..." />
               </folding>
             </state>
           </provider>
@@ -269,6 +270,7 @@
         <option value="$PROJECT_DIR$/route/welcome.py" />
         <option value="$PROJECT_DIR$/route/homepage.py" />
         <option value="$PROJECT_DIR$/op/homepage_op.py" />
+        <option value="$PROJECT_DIR$/op/welcome_op.py" />
       </list>
     </option>
   </component>
@@ -727,22 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="52" column="22" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1556955055008" expanded="true" signature="334:335" ph="..." />
-            <marker date="1556955055008" expanded="true" signature="1406:1407" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/route/homepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="152">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -751,10 +741,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/op/homepage_op.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="107" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+        <state relative-caret-position="171">
+          <caret line="9" column="91" lean-forward="true" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1556957645366" expanded="true" signature="305:316" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1556957712535" expanded="true" signature="334:335" ph="..." />
+            <marker date="1556957712535" expanded="true" signature="1406:1407" ph="..." />
           </folding>
         </state>
       </provider>
