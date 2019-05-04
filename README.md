@@ -11,7 +11,7 @@ mail: xxxxxxx
 2： 注册失败用户名已存在  
 3： 注册失败邮箱已存在  
   
-网址： /login_verification  
+网址： /register_verification  
 前端给后端的表单：  
 name: xxxxx  
 verification_code: xxxxxxx  
