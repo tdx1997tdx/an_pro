@@ -21,7 +21,7 @@ def register_op(name, mail, conn=mci.get_now_conn_info()):
     if(ms.send_email(name, mail)):
         return '1'
     else:
-        return '3'
+        return '4'
 
 def register_verification_op(username,password,mail,v_code, conn=mci.get_now_conn_info()):
     if (ts.temp_storage.get(username) and ts.temp_storage[username]==v_code):
