@@ -8,8 +8,6 @@ def login():
     username = request.form.get('name')
     password = request.form.get('password')
     print(username,password)
-    if(username or password):
-        return '2'
     return wop.login_op(username,password)
 
 
@@ -37,8 +35,6 @@ def register_verification():
 def change_password():
     name = request.form.get('name')
     mail = request.form.get('mail')
-    if (name or mail):
-        return '2'
     return wop.change_password_op(name,mail)
 
 
@@ -47,7 +43,5 @@ def change_password_verification():
     name = request.form.get('name')
     new_password = request.form.get('new_password')
     v_code = request.form.get('verification_code')
-    if (name or new_password or v_code):
-        return '2'
     return wop.change_password_verification_op(name,new_password,int(v_code))
 
