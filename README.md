@@ -10,6 +10,7 @@ mail: xxxxxxx
 1： 用户以及邮箱合法  
 2： 注册失败用户名已存在  
 3： 注册失败邮箱已存在  
+4： 邮箱不合法  
   
 网址： /register_verification  
 前端给后端的表单：  
@@ -39,6 +40,7 @@ mail: xxxxxxx
 1： 用户以及邮箱匹配成功  
 2： 失败，用户名不存在  
 3： 失败，邮箱用户名不匹配  
+4： 邮箱不合法  
   
 网址： /change_password_verification  
 前端给后端的表单：  
@@ -55,7 +57,7 @@ verification_code: xxxxxxx
 name: xxxxx  
 new_mail: xxxxxxx  
 后端给前端的数字：  
-1： 用户以及邮箱匹配成功  
+1： 成功  
 2： 失败，邮箱用户名不匹配  
 网址： /change_mail_verification  
 前端给后端的表单：  
