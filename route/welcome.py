@@ -9,7 +9,7 @@ def login():
     password = request.form.get('password')
     print(username,password)
     if(username or password):
-        return 'NOTOK'
+        return '2'
     return wop.login_op(username,password)
 
 
@@ -30,8 +30,6 @@ def register_verification():
     password = request.form.get('password')
     mail = request.form.get('mail')
     v_code = request.form.get('verification_code')
-    if (username or password or mail or v_code):
-        return '2'
     return wop.register_verification_op(username,password,mail,int(v_code))
 
 
