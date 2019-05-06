@@ -33,7 +33,7 @@ password: xxxxx
 网址： /change_password  
 前端给后端的表单：  
 name: xxxxx  
-mail: xxxxxxx  
+或者mail: xxxxxxx  
 后端给前端的数字：  
 1： 用户以及邮箱匹配成功  
 2： 失败，邮箱或者用户名不匹配或不存在  
