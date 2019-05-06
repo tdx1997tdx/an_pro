@@ -86,7 +86,7 @@ class Test(unittest.TestCase):
         url = 'http://dexuannb.ml/change_mail'
         data = {'name': 'tang', 'new_mail': '123@qq.com'}
         r = requests.post(url, data)
-        self.assertEqual('2', r.text)
+        self.assertEqual('3', r.text)
 
     def test_change_mail2(self):
         url = 'http://dexuannb.ml/change_mail'

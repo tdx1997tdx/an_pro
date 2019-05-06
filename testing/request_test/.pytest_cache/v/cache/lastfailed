@@ -1,4 +1,5 @@
 {
   "all_request_test.py": true,
+  "all_request_test.py::Test::test_change_mail1": true,
   "all_request_test.py::Test::test_change_mail2": true
 }

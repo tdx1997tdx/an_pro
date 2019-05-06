@@ -12,6 +12,7 @@ def get_mail_op(name,conn=mci.get_now_conn_info()):
 def change_mail_op(name,new_mail,conn=mci.get_now_conn_info()):
     sql = "select mail from user where mail='%s'" % (new_mail)
     result = [i for i in op.select(sql, conn=conn)]
+    print(result)
     if result!=[]:
         return '2'
     if (ms.send_email(name, new_mail)):
