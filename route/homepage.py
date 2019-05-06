@@ -12,7 +12,7 @@ def change_mail():
     return ho.change_mail_op(name,new_mail)
 
 @homepage_page.route('/change_mail_verification',methods=['GET','POST'])
-def change_mail():
+def change_mail_verification():
     name = request.form.get('name')
     new_mail = request.form.get('new_mail')
     verification_code = request.form.get('verification_code')

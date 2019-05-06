@@ -1,6 +1,6 @@
 from basic_mysql_op import op_mysql as mop
 from basic_mysql_op import mysql_conn_info as mci
-from basic_mail_op import mail_server as ms
+from basic_mail_op import send_mail_op as ms
 from basic_mail_op import temp_storage as ts
 
 def login_op(username,password,conn=mci.get_now_conn_info()):
