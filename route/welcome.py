@@ -42,7 +42,12 @@ def change_password():
 @welcome_page.route('/change_password_verification',methods=['GET','POST'])
 def change_password_verification():
     name = request.form.get('name')
+    mail = request.form.get('mail')
     new_password = request.form.get('new_password')
     v_code = request.form.get('verification_code')
-    return wop.change_password_verification_op(name,new_password,int(v_code))
+    if not name:
+        name=''
+    elif not mail:
+        mail=''
+    return wop.change_password_verification_op(name,mail,new_password,int(v_code))
 

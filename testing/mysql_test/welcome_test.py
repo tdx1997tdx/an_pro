@@ -28,11 +28,17 @@ class WelcomeTest(unittest.TestCase):
     def test_register_verification_op2(self):
         self.assertEqual('2', wmo. register_verification_op('tang23','tang2','7785',mci.conn_info2))
 
-    def test_change_password_op_op1(self):
-        self.assertEqual('2', wmo. register_verification_op('tang23','tang2','4403',mci.conn_info2))
+    def test_change_password_op1(self):
+        self.assertEqual('3', wmo. change_password_op('tang23','4403',mci.conn_info2))
 
-    def test_change_password_op_op2(self):
-        self.assertEqual('2', wmo. register_verification_op('tang23','tang2','4403',mci.conn_info2))
+    def test_change_password_op2(self):
+        self.assertEqual('1', wmo. change_password_op('tang','798637048@qq.com',mci.conn_info2))
+
+    def test_change_password_verification_op1(self):
+        self.assertEqual('2', wmo. change_password_verification_op('tang','798637048@qq.com','4399',mci.conn_info2))
+
+    def test_change_password_verification_op2(self):
+        self.assertEqual('2', wmo. change_password_verification_op('dddd','sedfasdf','4455',mci.conn_info2))
 
 if __name__ == '__main__':
     unittest.main()
