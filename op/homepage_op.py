@@ -4,6 +4,11 @@ from basic_mysql_op import mysql_conn_info as mci
 from basic_mail_op import send_mail_op as ms
 from basic_mail_op import temp_storage as ts
 
+def get_mail_op(name):
+    sql = "select mail from user where username='%s'" % (name)
+    result = [i for i in op.select(sql)]
+    return result[0][0]
+
 def change_mail_op(name,new_mail):
     if (ms.send_email(name, new_mail)):
         return '1'

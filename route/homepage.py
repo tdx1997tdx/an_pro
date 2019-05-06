@@ -3,6 +3,11 @@ from op import homepage_op as ho
 
 homepage_page=Blueprint("homepage_page",__name__)
 
+@homepage_page.route('/get_mail',methods=['GET','POST'])
+def get_mail():
+    name = request.form.get('name')
+    return ho.get_mail_op(name)
+
 @homepage_page.route('/change_mail',methods=['GET','POST'])
 def change_mail():
     name = request.form.get('name')
