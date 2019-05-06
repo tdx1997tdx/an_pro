@@ -12,6 +12,8 @@ def get_mail():
 def change_mail():
     name = request.form.get('name')
     new_mail = request.form.get('new_mail')
+    print(name)
+    print(new_mail)
     if(name or new_mail):
         return '2'
     return ho.change_mail_op(name,new_mail)
