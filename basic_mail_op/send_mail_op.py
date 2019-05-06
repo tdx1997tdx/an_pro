@@ -22,7 +22,8 @@ def send_email(name,receiver):
     try:
         smtp.sendmail('798637048@qq.com', receiver, message.as_string())
         print('ok')
-    except:
+    except Exception as e:
+        print(e)
         return False
     ts.temp_storage[name]=v_code
     smtp.close()
