@@ -37,6 +37,7 @@ def register_verification_op(username,password,mail,v_code, conn=mci.get_now_con
 def change_password_op(name,mail, conn=mci.get_now_conn_info()):
     sql = "select * from user where username='%s' or mail='%s'" % (name,mail)
     name_result = [i for i in mop.select(sql, conn=conn)]
+    print(name_result)
     if not name_result:
         return '2'
     if (ms.send_email(name, mail)):

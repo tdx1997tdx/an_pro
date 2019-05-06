@@ -30,10 +30,12 @@ def register_verification():
 def change_password():
     name = request.form.get('name')
     mail = request.form.get('mail')
+    print(name,mail)
     if not name:
         name=''
     elif not mail:
         mail=''
+    print(name, mail)
     return wop.change_password_op(name,mail)
 
 
