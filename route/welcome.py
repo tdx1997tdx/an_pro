@@ -7,7 +7,6 @@ welcome_page=Blueprint("welcome_page",__name__)
 def login():
     username = request.form.get('name')
     password = request.form.get('password')
-    print(username,password)
     return wop.login_op(username,password)
 
 
@@ -24,10 +23,6 @@ def register_verification():
     password = request.form.get('password')
     mail = request.form.get('mail')
     v_code = request.form.get('verification_code')
-    print(username)
-    print(password)
-    print(mail)
-    print(v_code)
     return wop.register_verification_op(username,password,mail,int(v_code))
 
 
@@ -35,6 +30,10 @@ def register_verification():
 def change_password():
     name = request.form.get('name')
     mail = request.form.get('mail')
+    if not name:
+        name=''
+    elif not mail:
+        mail=''
     return wop.change_password_op(name,mail)
 
 

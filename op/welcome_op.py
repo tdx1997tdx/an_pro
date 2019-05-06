@@ -19,10 +19,8 @@ def register_op(name, mail, conn=mci.get_now_conn_info()):
         return '3'
 
     if(ms.send_email(name, mail)):
-        print('1')
         return '1'
     else:
-        print('4')
         return '4'
 
 def register_verification_op(username,password,mail,v_code, conn=mci.get_now_conn_info()):
@@ -37,7 +35,7 @@ def register_verification_op(username,password,mail,v_code, conn=mci.get_now_con
 
 
 def change_password_op(name,mail, conn=mci.get_now_conn_info()):
-    sql = "select * from user where username='%s' and  mail='%s'" % (name,mail)
+    sql = "select * from user where username='%s' or mail='%s'" % (name,mail)
     name_result = [i for i in mop.select(sql, conn=conn)]
     if not name_result:
         return '2'
