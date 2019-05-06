@@ -94,5 +94,29 @@ class Test(unittest.TestCase):
         r = requests.post(url, data)
         self.assertEqual('1', r.text)
 
+    def test_change_mail_verification1(self):
+        url = 'http://dexuannb.ml/change_mail_verification'
+        data = {'name': 'tang', 'new_mail': '123@qq.com','verification_code': '2560'}
+        r = requests.post(url, data)
+        self.assertEqual('2', r.text)
+
+    def test_change_mail_verification2(self):
+        url = 'http://dexuannb.ml/change_mail_verification'
+        data = {'name': 'tang','new_mail': '99648990@qq.com','verification_code': '5585'}
+        r = requests.post(url, data)
+        self.assertEqual('2', r.text)
+
+    def test_change_inside_password1(self):
+        url = 'http://dexuannb.ml/change_inside_password'
+        data = {'name': 'tang', 'old_password': 'tang','new_password': 'tang'}
+        r = requests.post(url, data)
+        self.assertEqual('1', r.text)
+
+    def test_change_inside_password2(self):
+        url = 'http://dexuannb.ml/change_inside_password'
+        data = {'name': 'tang','old_password': 'sadasdas','new_password': 'sadasd'}
+        r = requests.post(url, data)
+        self.assertEqual('2', r.text)
+
 if __name__ == '__main__':
     unittest.main()
