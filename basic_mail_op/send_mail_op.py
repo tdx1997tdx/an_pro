@@ -18,7 +18,6 @@ def send_email(name,receiver):
     message['To'] = Header("尊敬的玩家", 'utf-8')  # 接收者
     message['Subject'] = Header('Note Your Life的验证码', 'utf-8')
     print(receiver)
-    smtp.sendmail('798637048@qq.com', receiver, message.as_string())
     try:
         smtp.sendmail('798637048@qq.com', receiver, message.as_string())
         print('ok')
