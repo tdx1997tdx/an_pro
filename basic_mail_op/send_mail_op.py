@@ -5,14 +5,12 @@ from email.header import Header
 from basic_mail_op import temp_storage as ts
 pass1='qimddlwbnympbfai'
 pass2='pehiokuarlmibdcd'
-smtp = smtplib.SMTP()
-def connect_to_mail_server():
+
+def send_email(name,receiver):
     smtp = smtplib.SMTP()
     smtp.connect('smtp.qq.com', 25)
     smtp.login('798637048@qq.com', pass2)
     print('邮箱服务连接成功')
-
-def send_email(name,receiver):
     v_code = random.randint(1000, 9999)
     msg = 'Note Your Life的验证码为:' + str(v_code)
     message = MIMEText(msg, 'plain', 'utf-8')
@@ -27,5 +25,6 @@ def send_email(name,receiver):
     except:
         return False
     ts.temp_storage[name]=v_code
+    smtp.close()
     return True
 
