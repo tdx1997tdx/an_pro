@@ -45,6 +45,7 @@ def change_password_verification():
     mail = request.form.get('mail')
     new_password = request.form.get('new_password')
     v_code = request.form.get('verification_code')
+    print(name,mail,new_password,v_code)
     if not name:
         name=''
     elif not mail:
