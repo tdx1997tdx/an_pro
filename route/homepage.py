@@ -14,7 +14,7 @@ def change_mail():
     new_mail = request.form.get('new_mail')
     print(name)
     print(new_mail)
-    if(name or new_mail):
+    if(not name or not new_mail):
         return '2'
     return ho.change_mail_op(name,new_mail)
 
