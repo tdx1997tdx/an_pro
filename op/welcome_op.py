@@ -39,7 +39,7 @@ def change_password_op(name,mail, conn=mci.get_now_conn_info()):
     name_result = [i for i in mop.select(sql, conn=conn)]
     if not name_result:
         return '2'
-    if (ms.send_email(name, mail)):
+    if (ms.send_email(name_result[0][0], name_result[0][2])):
         return '1'
     else:
         return '3'
