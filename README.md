@@ -48,6 +48,12 @@ verification_code: xxxxxxx
 1： 修改成功  
 2： 修改失败，验证码错误  
 ## 个人信息界面
+### 获取个人信息
+网址： /get_mail  
+前端给后端的表单：  
+name: xxxxx  
+后端给前端：  
+798637048@qq.com  
 ### 修改绑定邮箱
 网址： /change_mail  
 前端给后端的表单：  
