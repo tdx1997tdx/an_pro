@@ -1,5 +1,6 @@
 from flask import Blueprint, request
-from op import welcome_op as wop
+from op import register_op as wop
+from op import login_op as lop
 
 login=Blueprint("login",__name__)
 
@@ -10,7 +11,7 @@ login=Blueprint("login",__name__)
 def login():
     username = request.form.get('name')
     password = request.form.get('password')
-    return wop.login_op(username,password)
+    return lop.login_op(username,password)
 
 '''
 忘记密码
@@ -19,13 +20,11 @@ def login():
 def change_password():
     name = request.form.get('name')
     mail = request.form.get('mail')
-    print(name,mail)
     if not name:
         name=''
     elif not mail:
         mail=''
-    print(name, mail)
-    return wop.change_password_op(name,mail)
+    return lop.change_password_op(name,mail)
 
 '''
 忘记密码验证
@@ -40,4 +39,4 @@ def change_password_verification():
         name=''
     elif not mail:
         mail=''
-    return wop.change_password_verification_op(name,mail,new_password,int(v_code))
+    return lop.change_password_verification_op(name,mail,new_password,int(v_code))

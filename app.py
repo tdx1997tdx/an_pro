@@ -1,7 +1,11 @@
 from flask import Flask, request
 from route.homepage import homepage_page
+from route.login import login
+from route.register import register
 app = Flask(__name__)
 app.register_blueprint(homepage_page)
+app.register_blueprint(login)
+app.register_blueprint(register)
 
 @app.route('/',methods=['GET','POST'])
 def hello_world():

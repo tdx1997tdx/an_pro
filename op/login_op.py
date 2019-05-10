@@ -1,6 +1,6 @@
 from basic_mysql_op import op_database as opsql
-from basic_mail_op import op_email as ms
-from basic_mail_op import temp_storage as ts
+from basic_mail_op.op_email import email
+from basic_mail_op.op_storage import storage
 
 def login_op(username,password):
     conn=opsql.Database()
@@ -12,20 +12,26 @@ def login_op(username,password):
 
 def change_password_op(name,mail):
     conn = opsql.Database()
-    sql = "select * from user where username=%s or mail=%s"
+    sql = "select username,mail from user where username=%s or mail=%s"
     para=[name,mail]
-    name_result = conn.select(sql,para)
-    if not name_result:
+    result = conn.select(sql,para)
+    conn.close()
+    if not result:
         return '2'
-    if (ms.send_email(name_result[0][0], name_result[0][2])):
+    if (email.send_email(result[0][0],result[0][1])):
         return '1'
     else:
         return '3'
 
 def change_password_verification_op(name,mail,new_password,v_code):
-    if (ts.temp_storage.get(name) and ts.temp_storage[name]==v_code):
-        if (mop.update("update user set password='%s' where username='%s' or mail='%s'" % (new_password, name,mail), conn=conn)):
-            ts.temp_storage.pop(name)
+    conn = opsql.Database()
+    if (storage.verification(name,v_code)):
+        sql="update user set password=%s where username=%s or mail=%s"
+        para=[new_password, name,mail]
+        is_success=conn.iur(sql,para)
+        conn.close()
+        if (is_success):
+            storage.remove(name)
             return '1'
         else:
             return '2'

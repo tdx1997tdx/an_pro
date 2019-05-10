@@ -1,6 +1,6 @@
 import unittest
 from basic_mysql_op import mysql_conn_info as mci
-from op import welcome_op as wmo
+from op import register_op as wmo
 cnn=mci.conn_info2
 class WelcomeTest(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from op import welcome_op as wop
+from op import register_op as rop
 
 register=Blueprint("register",__name__)
 
@@ -10,7 +10,7 @@ register=Blueprint("register",__name__)
 def register():
     username = request.form.get('name')
     mail = request.form.get('mail')
-    return wop.register_op(username,mail)
+    return rop.register_op(username,mail)
 
 '''
 注册认证
@@ -21,8 +21,6 @@ def register_verification():
     password = request.form.get('password')
     mail = request.form.get('mail')
     v_code = request.form.get('verification_code')
-    return wop.register_verification_op(username,password,mail,int(v_code))
-
-
+    return rop.register_verification_op(username,password,mail,int(v_code))
 
 

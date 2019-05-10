@@ -1,28 +1,36 @@
-from basic_mysql_op import op_database as op
-from basic_mail_op import op_email as ms
-from basic_mail_op import temp_storage as ts
+from basic_mysql_op import op_database as opsql
+from basic_mail_op.op_email import email
+from basic_mail_op.op_storage import storage
 
 def get_mail_op(name):
-    sql = "select mail from user where username='%s'" % (name)
-    result = [i for i in op.select(sql,conn=conn)]
+    conn=opsql.Database()
+    sql = "select mail from user where username=%s"
+    para=[name]
+    result = conn.select(sql,para)
+    conn.close()
     return result[0][0]
 
 def change_mail_op(name,new_mail):
-    sql = "select mail from user where mail='%s'" % (new_mail)
-    result = [i for i in op.select(sql, conn=conn)]
-    print(result)
+    conn = opsql.Database()
+    sql = "select mail from user where mail=%s"
+    para=[new_mail]
+    result = conn.select(sql,para)
     if result!=[]:
         return '2'
-    if (ms.send_email(name, new_mail)):
+    if (email.send_email(name, new_mail)):
         return '1'
     else:
         return '3'
 
 
 def change_mail_verification_op(name,new_mail,verification_code):
-    if (ts.temp_storage.get(name) and ts.temp_storage[name] == verification_code):
-        if (mop.update("update user set mail='%s' where username='%s'" % (new_mail, name), conn=conn)):
-            ts.temp_storage.pop(name)
+    conn = opsql.Database()
+    if (storage.verification(name,verification_code)):
+        sql="update user set mail=%s where username=%s"
+        para=[new_mail, name]
+        is_success=conn.select(sql,para)
+        if (is_success):
+            storage.remove(name)
             return '1'
         else:
             return '2'
@@ -30,11 +38,16 @@ def change_mail_verification_op(name,new_mail,verification_code):
         return '2'
 
 def change_inside_password_op(name,old_password,new_password):
-    sql="select * from user where username='%s' and password='%s'" % (name, old_password)
-    result = [i for i in op.select(sql,conn)]
+    conn = opsql.Database()
+    sql="select * from user where username=%s and password=%s"
+    para=[name, old_password]
+    result = conn.select(sql,para)
     if not result:
         return '2'
-    if (mop.update("update user set password='%s' where username='%s'" % (new_password, name), conn=conn)):
+    sql2="update user set password=%s where username=%s"
+    para2=[new_password, name]
+    is_success=conn.iur(sql2,para2)
+    if (is_success):
         return '1'
     else:
         return '2'
