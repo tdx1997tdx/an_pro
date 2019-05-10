@@ -7,7 +7,6 @@ class Database:
         self.conn_info=conn_info
         self.connection = None
         self.cursor =None
-        self.connect()
 
     def connect(self):
         self.connection = pymysql.connect(db=self.conn_info[4], user=self.conn_info[2],

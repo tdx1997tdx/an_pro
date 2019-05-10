@@ -9,7 +9,6 @@ class Email:
     def __init__(self,password=pass1):
         self.password=password
         self.smtp = smtplib.SMTP()
-        self.connect()
     def connect(self):
         self.smtp.connect('smtp.qq.com',25)
         print('连接成功')

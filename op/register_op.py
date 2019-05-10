@@ -15,7 +15,7 @@ def register_op(name, mail):
     conn.close()
     if mail_result!=[]:
         return '3'
-
+    email.connect()
     if(email.send_email(name, mail)):
         return '1'
     else:

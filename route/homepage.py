@@ -34,7 +34,7 @@ def change_mail_verification():
     verification_code = request.form.get('verification_code')
     if(not name or not new_mail or not verification_code):
         return '2'
-    return ho.change_mail_verification_op(name,new_mail,verification_code)
+    return hop.change_mail_verification_op(name,new_mail,verification_code)
 
 '''
 变更密码
@@ -46,11 +46,7 @@ def change_inside_password():
     new_password = request.form.get('new_password')
     if(not name or not old_password or not new_password):
         return '2'
-    return ho.change_inside_password_op(name,old_password,new_password)
+    return hop.change_inside_password_op(name,old_password,new_password)
 
 
 
-@homepage_page.route('/test2',methods=['GET','POST'])
-def test2():
-    op_test.sendmail()
-    return '发送成功'

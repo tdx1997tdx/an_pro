@@ -18,6 +18,7 @@ def change_password_op(name,mail):
     conn.close()
     if not result:
         return '2'
+    email.connect()
     if (email.send_email(result[0][0],result[0][1])):
         return '1'
     else:
