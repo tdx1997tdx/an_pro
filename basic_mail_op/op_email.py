@@ -1,7 +1,7 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-from basic_mail_op.op_storage import temp_storage
+from basic_mail_op.op_storage import storage
 import random
 pass1='qimddlwbnympbfai'
 pass2='pehiokuarlmibdcd'
@@ -28,7 +28,7 @@ class Email:
         subject = 'Note Your Life的验证码'
         message['Subject'] = Header(subject, 'utf-8')
         self.smtp.sendmail('798637048@qq.com', email_address, message.as_string())
-        temp_storage[name]=v_code
+        storage.add(name,v_code)
         print('发送成功')
 
 email=Email()

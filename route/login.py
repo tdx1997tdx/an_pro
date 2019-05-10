@@ -1,5 +1,4 @@
 from flask import Blueprint, request
-from op import register_op as wop
 from op import login_op as lop
 
 login=Blueprint("login",__name__)

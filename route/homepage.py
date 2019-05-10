@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from op import homepage_op as ho
+from op import homepage_op as hop
 
 homepage_page=Blueprint("homepage_page",__name__)
 
@@ -9,7 +9,7 @@ homepage_page=Blueprint("homepage_page",__name__)
 @homepage_page.route('/get_mail',methods=['GET','POST'])
 def get_mail():
     name = request.form.get('name')
-    return ho.get_mail_op(name)
+    return hop.get_mail_op(name)
 
 '''
 根据姓名或者邮箱变更邮箱
@@ -22,7 +22,7 @@ def change_mail():
     print(new_mail)
     if(not name or not new_mail):
         return '2'
-    return ho.change_mail_op(name,new_mail)
+    return hop.change_mail_op(name,new_mail)
 
 '''
 变更邮箱验证
