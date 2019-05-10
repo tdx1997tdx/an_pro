@@ -27,6 +27,11 @@ class Email:
         message['To'] = Header("尊敬的玩家", 'utf-8')  # 接收者
         subject = 'Note Your Life的验证码'
         message['Subject'] = Header(subject, 'utf-8')
-        self.smtp.sendmail('798637048@qq.com', email_address, message.as_string())
-        storage.add(name,v_code)
-        print('发送成功')
+        try:
+            self.smtp.sendmail('798637048@qq.com', email_address, message.as_string())
+            storage.add(name,v_code)
+            print('发送成功')
+            return True
+        except Exception as e:
+            print(e)
+            return False
