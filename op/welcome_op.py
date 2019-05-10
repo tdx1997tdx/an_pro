@@ -1,14 +1,13 @@
-from basic_mysql_op import op_mysql as mop
-from basic_mysql_op import mysql_conn_info as mci
+from basic_mysql_op import op_database as opsql
 from basic_mail_op import send_mail_op as ms
 from basic_mail_op import temp_storage as ts
 
-def login_op(username,password,conn=mci.get_now_conn_info()):
+def login_op(username,password):
     sql="select * from user where username='%s' and password='%s'" % (username, password)
     result = [i for i in mop.select(sql, conn=conn)]
     return '2' if result==[] else '1'
 
-def register_op(name, mail, conn=mci.get_now_conn_info()):
+def register_op(name, mail):
     name_sql="select * from user where username='%s'" % (name)
     name_result = [i for i in mop.select(name_sql, conn=conn)]
     if name_result!=[]:
@@ -23,7 +22,7 @@ def register_op(name, mail, conn=mci.get_now_conn_info()):
     else:
         return '4'
 
-def register_verification_op(username,password,mail,v_code, conn=mci.get_now_conn_info()):
+def register_verification_op(username,password,mail,v_code):
     if (ts.temp_storage.get(username) and ts.temp_storage[username]==v_code):
         if (mop.insert("insert into user (username,password,mail) values ('%s','%s','%s')" % (username, password,mail), conn=conn)):
             ts.temp_storage.pop(username)
@@ -34,7 +33,7 @@ def register_verification_op(username,password,mail,v_code, conn=mci.get_now_con
         return '2'
 
 
-def change_password_op(name,mail, conn=mci.get_now_conn_info()):
+def change_password_op(name,mail):
     sql = "select * from user where username='%s' or mail='%s'" % (name,mail)
     name_result = [i for i in mop.select(sql, conn=conn)]
     if not name_result:
@@ -44,7 +43,7 @@ def change_password_op(name,mail, conn=mci.get_now_conn_info()):
     else:
         return '3'
 
-def change_password_verification_op(name,mail,new_password,v_code, conn=mci.get_now_conn_info()):
+def change_password_verification_op(name,mail,new_password,v_code):
     if (ts.temp_storage.get(name) and ts.temp_storage[name]==v_code):
         if (mop.update("update user set password='%s' where username='%s' or mail='%s'" % (new_password, name,mail), conn=conn)):
             ts.temp_storage.pop(name)

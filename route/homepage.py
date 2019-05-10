@@ -3,11 +3,17 @@ from op import homepage_op as ho
 
 homepage_page=Blueprint("homepage_page",__name__)
 
+'''
+根据姓名获取邮箱
+'''
 @homepage_page.route('/get_mail',methods=['GET','POST'])
 def get_mail():
     name = request.form.get('name')
     return ho.get_mail_op(name)
 
+'''
+根据姓名或者邮箱变更邮箱
+'''
 @homepage_page.route('/change_mail',methods=['GET','POST'])
 def change_mail():
     name = request.form.get('name')
@@ -18,6 +24,9 @@ def change_mail():
         return '2'
     return ho.change_mail_op(name,new_mail)
 
+'''
+变更邮箱验证
+'''
 @homepage_page.route('/change_mail_verification',methods=['GET','POST'])
 def change_mail_verification():
     name = request.form.get('name')
@@ -27,6 +36,9 @@ def change_mail_verification():
         return '2'
     return ho.change_mail_verification_op(name,new_mail,verification_code)
 
+'''
+变更密码
+'''
 @homepage_page.route('/change_inside_password',methods=['GET','POST'])
 def change_inside_password():
     name = request.form.get('name')
