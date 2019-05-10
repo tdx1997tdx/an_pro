@@ -26,7 +26,10 @@ class Database:
             self.cursor.execute(sql,para)
             # 获取所有记录列表
             results = self.cursor.fetchall()
+            if results==():
+                return []
             return results
+
         except Exception as e:
             print(e)
             return []
