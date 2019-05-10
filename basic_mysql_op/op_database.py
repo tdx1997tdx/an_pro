@@ -10,9 +10,9 @@ class Database:
         self.connect()
 
     def connect(self):
-        self.connection = pymysql.connect(database=self.conn_info[0], user=self.conn_info[1],
-                                           password=self.conn_info[2], host=self.conn_info[3],
-                                           port=self.conn_info[4])
+        self.connection = pymysql.connect(db=self.conn_info[0], user=self.conn_info[1],
+                                          passwd=self.conn_info[2], host=self.conn_info[3],
+                                           port=self.conn_info[4],charset='utf8')
         self.cursor = self.connection.cursor()
 
     def close(self):
