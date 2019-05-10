@@ -7,7 +7,7 @@ register=Blueprint("register",__name__)
 注册
 '''
 @register.route('/register',methods=['GET','POST'])
-def register():
+def register_op():
     username = request.form.get('name')
     mail = request.form.get('mail')
     return rop.register_op(username,mail)
