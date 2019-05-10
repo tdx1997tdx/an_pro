@@ -1,6 +1,5 @@
 from flask import Flask, request
 from route.homepage import homepage_page
-from testing.email_test import email
 app = Flask(__name__)
 app.register_blueprint(homepage_page)
 
@@ -14,10 +13,7 @@ def test():
         return '你好牛逼'
     return '你不牛逼'
 
-@app.route('/test2',methods=['GET','POST'])
-def test2():
-    email.send_email()
-    return '发送成功'
+
 
 if __name__ == '__main__':
     app.run()

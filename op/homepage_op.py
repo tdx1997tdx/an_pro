@@ -1,5 +1,5 @@
 from basic_mysql_op import op_database as op
-from basic_mail_op import send_mail_op as ms
+from basic_mail_op import op_email as ms
 from basic_mail_op import temp_storage as ts
 
 def get_mail_op(name):

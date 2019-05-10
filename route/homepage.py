@@ -1,6 +1,6 @@
 from flask import Blueprint, request
 from op import homepage_op as ho
-
+from testing.email_test import email
 homepage_page=Blueprint("homepage_page",__name__)
 
 '''
@@ -47,3 +47,10 @@ def change_inside_password():
     if(not name or not old_password or not new_password):
         return '2'
     return ho.change_inside_password_op(name,old_password,new_password)
+
+
+
+@homepage_page.route('/test2',methods=['GET','POST'])
+def test2():
+    email.send_email()
+    return '发送成功'
