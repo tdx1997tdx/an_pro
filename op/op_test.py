@@ -1,5 +1,5 @@
-import testing
+from testing import email_test as et
 
 
 def sendmail():
-    testing.email_test.email.send_email()
+    et.email.send_email()
