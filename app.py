@@ -1,6 +1,5 @@
 from flask import Flask, request
 from route.homepage import homepage_page
-from testing.email_test import email
 app = Flask(__name__)
 app.register_blueprint(homepage_page)
 
