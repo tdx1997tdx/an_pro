@@ -9,6 +9,7 @@ class Email:
     def __init__(self,password=pass1):
         self.password=password
         self.smtp = smtplib.SMTP()
+        self.connect()
     def connect(self):
         self.smtp.connect('smtp.qq.com',25)
         print('连接成功')
@@ -29,5 +30,3 @@ class Email:
         self.smtp.sendmail('798637048@qq.com', email_address, message.as_string())
         storage.add(name,v_code)
         print('发送成功')
-
-email=Email()

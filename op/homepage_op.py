@@ -1,5 +1,5 @@
 from basic_mysql_op import op_database as opsql
-from basic_mail_op.op_email import email
+from basic_mail_op import op_email as ope
 from basic_mail_op.op_storage import storage
 
 def get_mail_op(name):
@@ -18,7 +18,7 @@ def change_mail_op(name,new_mail):
     conn.close()
     if result!=[]:
         return '2'
-    email.connect()
+    email = ope.Email()
     if (email.send_email(name, new_mail)):
         return '1'
     else:

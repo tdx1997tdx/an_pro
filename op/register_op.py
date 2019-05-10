@@ -1,5 +1,5 @@
 from basic_mysql_op import op_database as opsql
-from basic_mail_op.op_email import email
+from basic_mail_op import op_email as ope
 from basic_mail_op.op_storage import storage
 
 def register_op(name, mail):
@@ -15,7 +15,7 @@ def register_op(name, mail):
     conn.close()
     if mail_result!=[]:
         return '3'
-    email.connect()
+    email=ope.Email()
     if(email.send_email(name, mail)):
         return '1'
     else:

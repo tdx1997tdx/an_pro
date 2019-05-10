@@ -1,5 +1,5 @@
 from basic_mysql_op import op_database as opsql
-from basic_mail_op.op_email import email
+from basic_mail_op import op_email as ope
 from basic_mail_op.op_storage import storage
 
 def login_op(username,password):
@@ -18,7 +18,7 @@ def change_password_op(name,mail):
     conn.close()
     if not result:
         return '2'
-    email.connect()
+    email = ope.Email()
     if (email.send_email(result[0][0],result[0][1])):
         return '1'
     else:
