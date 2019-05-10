@@ -7,7 +7,7 @@ login=Blueprint("login",__name__)
 登陆功能，输入name和password验证正确性
 '''
 @login.route('/login',methods=['GET','POST'])
-def login():
+def login_op():
     username = request.form.get('name')
     password = request.form.get('password')
     return lop.login_op(username,password)
