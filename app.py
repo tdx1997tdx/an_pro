@@ -1,10 +1,8 @@
 from flask import Flask, request
 from route.homepage import homepage_page
-from route.login import login
 from testing.email_test import email
 app = Flask(__name__)
 app.register_blueprint(homepage_page)
-app.register_blueprint(login)
 
 @app.route('/',methods=['GET','POST'])
 def hello_world():
