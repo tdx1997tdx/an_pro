@@ -4,7 +4,7 @@ from basic_mail_op.op_storage import storage
 
 def register_op(name, mail):
     conn = opsql.Database()
-    name_sql="select count(*) from user where username=%s"
+    name_sql="select * from user where username=%s"
     name_para=[name]
     name_result = conn.select(name_sql,name_para)
     print(name_result)
