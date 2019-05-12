@@ -36,8 +36,10 @@ def change_mail_verification_op(name,new_mail,verification_code):
             storage.remove(name)
             return '1'
         else:
+            print('111')
             return '2'
     else:
+        print('222')
         return '2'
 
 def change_inside_password_op(name,old_password,new_password):
