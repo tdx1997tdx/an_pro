@@ -46,7 +46,7 @@ def change_inside_password():
     new_password = request.form.get('new_password')
     if(not name or not old_password or not new_password):
         return '2'
-    print(name,new_password,new_password)
+    print(name,old_password,new_password)
     return hop.change_inside_password_op(name,old_password,new_password)
 
 
