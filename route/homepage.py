@@ -32,6 +32,9 @@ def change_mail_verification():
     name = request.form.get('name')
     new_mail = request.form.get('new_mail')
     verification_code = request.form.get('verification_code')
+    print(new_mail)
+    print(name)
+    print(verification_code)
     if(not name or not new_mail or not verification_code):
         return '2'
     return hop.change_mail_verification_op(name,new_mail,verification_code)
