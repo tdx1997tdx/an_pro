@@ -37,7 +37,7 @@ def change_mail_verification():
     print(verification_code)
     if(not name or not new_mail or not verification_code):
         return '2'
-    return hop.change_mail_verification_op(name,new_mail,verification_code)
+    return hop.change_mail_verification_op(name,new_mail,int(verification_code))
 
 '''
 变更密码
