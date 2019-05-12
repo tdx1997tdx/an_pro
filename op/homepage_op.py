@@ -30,7 +30,7 @@ def change_mail_verification_op(name,new_mail,verification_code):
     if (storage.verification(name,verification_code)):
         sql="update user set mail=%s where username=%s"
         para=[new_mail, name]
-        is_success=conn.select(sql,para)
+        is_success=conn.iur(sql,para)
         conn.close()
         if (is_success):
             storage.remove(name)
