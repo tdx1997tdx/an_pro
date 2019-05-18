@@ -7,7 +7,6 @@ def register_op(name, mail):
     name_sql="select * from user where username=%s"
     name_para=[name]
     name_result = conn.select(name_sql,name_para)
-    print(name_result)
     if name_result!=[]:
         return '2'
     mail_sql = "select * from user where mail=%s"
