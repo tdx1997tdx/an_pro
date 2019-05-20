@@ -26,13 +26,10 @@ class Database:
             self.cursor.execute(sql,para)
             # 获取所有记录列表
             results = self.cursor.fetchall()
-            if results==():
-                return []
-            return results
-
+            for i in results:
+                yield i
         except Exception as e:
             print(e)
-            return []
 
     def iur(self,sql,para):
         try:

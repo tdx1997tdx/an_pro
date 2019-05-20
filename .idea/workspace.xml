@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/testing/mysql_test/welcome_test.py" line="1" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="afc4b42c-c6ee-45a4-9e73-c104060da3be" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,14 +10,45 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/an_pro$pytest_for_welcome_test_WelcomeTest_test_login_mysql_op2.coverage" NAME="pytest for welcome_test.WelcomeTest.test_login_mysql_op2 Coverage Results" MODIFIED="1556640606723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/an_pro$op_mysql.coverage" NAME="op_mysql Coverage Results" MODIFIED="1555754114288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/an_pro$conn_test.coverage" NAME="conn_test Coverage Results" MODIFIED="1556640364750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_password1.coverage" NAME="pytest for all_request_test.Test.test_change_password1 Coverage Results" MODIFIED="1557143551310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
     <SUITE FILE_PATH="coverage/an_pro$pytest_for_welcome_request_test_WelcomeTest_test_register_respond1.coverage" NAME="pytest for welcome_request_test.WelcomeTest.test_register_respond1 Coverage Results" MODIFIED="1556641633168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
     <SUITE FILE_PATH="coverage/cs_304_project_backend$email_test.coverage" NAME="email_test Coverage Results" MODIFIED="1556959861266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/an_pro$conn_test__1_.coverage" NAME="conn_test (1) Coverage Results" MODIFIED="1556641509110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
-    <SUITE FILE_PATH="coverage/an_pro$request_test.coverage" NAME="request_test Coverage Results" MODIFIED="1556641123015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_WelcomeTest.coverage" NAME="pytest for all_request_test.WelcomeTest Coverage Results" MODIFIED="1557141489967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_mail_verification2.coverage" NAME="pytest for all_request_test.Test.test_change_mail_verification2 Coverage Results" MODIFIED="1557145367464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$request_test.coverage" NAME="request_test Coverage Results" MODIFIED="1558357791904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/an_pro$pytest_for_welcome_test_WelcomeTest.coverage" NAME="pytest for welcome_test.WelcomeTest Coverage Results" MODIFIED="1556641442361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest_test_register_verification_op2.coverage" NAME="pytest for welcome_test.WelcomeTest.test_register_verification_op2 Coverage Results" MODIFIED="1557136167063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest_test_change_password_op_op1.coverage" NAME="pytest for welcome_test.WelcomeTest.test_change_password_op_op1 Coverage Results" MODIFIED="1557136342838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest.coverage" NAME="pytest for welcome_test.WelcomeTest Coverage Results" MODIFIED="1557140380543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_mail2.coverage" NAME="pytest for all_request_test.Test.test_change_mail2 Coverage Results" MODIFIED="1557145047310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_change_mail_op1.coverage" NAME="pytest for homepage_test.WelcomeTest.test_change_mail_op1 Coverage Results" MODIFIED="1557139695137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/an_pro$op_mysql.coverage" NAME="op_mysql Coverage Results" MODIFIED="1555754114288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$conn_test.coverage" NAME="conn_test Coverage Results" MODIFIED="1558361777577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest_test_login_mysql_op2.coverage" NAME="pytest for welcome_test.WelcomeTest.test_login_mysql_op2 Coverage Results" MODIFIED="1557135490434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_change_inside_password_op2.coverage" NAME="pytest for homepage_test.WelcomeTest.test_change_inside_password_op2 Coverage Results" MODIFIED="1557140533414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_WelcomeTest_test_login1.coverage" NAME="pytest for all_request_test.WelcomeTest.test_login1 Coverage Results" MODIFIED="1557141935560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest_test_change_password_op2.coverage" NAME="pytest for welcome_test.WelcomeTest.test_change_password_op2 Coverage Results" MODIFIED="1557136458763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_change_mail_verification_op1.coverage" NAME="pytest for homepage_test.WelcomeTest.test_change_mail_verification_op1 Coverage Results" MODIFIED="1557140052859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/an_pro$request_test.coverage" NAME="request_test Coverage Results" MODIFIED="1556641123015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest.coverage" NAME="pytest for homepage_test.WelcomeTest Coverage Results" MODIFIED="1557140349901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_WelcomeTest_test_register1.coverage" NAME="pytest for all_request_test.WelcomeTest.test_register1 Coverage Results" MODIFIED="1557141868807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_inside_password1.coverage" NAME="pytest for all_request_test.Test.test_change_inside_password1 Coverage Results" MODIFIED="1557145452783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$welcome_op.coverage" NAME="welcome_op Coverage Results" MODIFIED="1557136336556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/op" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_change_inside_password_op1.coverage" NAME="pytest for homepage_test.WelcomeTest.test_change_inside_password_op1 Coverage Results" MODIFIED="1557140542978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/an_pro$conn_test.coverage" NAME="conn_test Coverage Results" MODIFIED="1556640364750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_get_mail_op2.coverage" NAME="pytest for homepage_test.WelcomeTest.test_get_mail_op2 Coverage Results" MODIFIED="1557139683808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_inside_password2.coverage" NAME="pytest for all_request_test.Test.test_change_inside_password2 Coverage Results" MODIFIED="1557145456873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
     <SUITE FILE_PATH="coverage/an_pro$pytest_for_welcome_test_WelcomeTest_test_login_mysql_op1.coverage" NAME="pytest for welcome_test.WelcomeTest.test_login_mysql_op1 Coverage Results" MODIFIED="1556640317346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test.coverage" NAME="pytest for all_request_test.Test Coverage Results" MODIFIED="1557143557077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_mail_verification1.coverage" NAME="pytest for all_request_test.Test.test_change_mail_verification1 Coverage Results" MODIFIED="1557145363523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_test_WelcomeTest_test_change_password_verification_op1.coverage" NAME="pytest for welcome_test.WelcomeTest.test_change_password_verification_op1 Coverage Results" MODIFIED="1557140282022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_homepage_test_WelcomeTest_test_change_mail_verification_op2.coverage" NAME="pytest for homepage_test.WelcomeTest.test_change_mail_verification_op2 Coverage Results" MODIFIED="1557140325728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_WelcomeTest_test_login2.coverage" NAME="pytest for all_request_test.WelcomeTest.test_login2 Coverage Results" MODIFIED="1557141801400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_login1.coverage" NAME="pytest for all_request_test.Test.test_login1 Coverage Results" MODIFIED="1557142104545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_register1.coverage" NAME="pytest for all_request_test.Test.test_register1 Coverage Results" MODIFIED="1557142580841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_mail1.coverage" NAME="pytest for all_request_test.Test.test_change_mail1 Coverage Results" MODIFIED="1557145038982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
+    <SUITE FILE_PATH="coverage/an_pro$conn_test__1_.coverage" NAME="conn_test (1) Coverage Results" MODIFIED="1556641509110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
+    <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_all_request_test_Test_test_change_password2.coverage" NAME="pytest for all_request_test.Test.test_change_password2 Coverage Results" MODIFIED="1557143093324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
     <SUITE FILE_PATH="coverage/cs_304_project_backend$pytest_for_welcome_request_test_WelcomeTest_test_register_respond1.coverage" NAME="pytest for welcome_request_test.WelcomeTest.test_register_respond1 Coverage Results" MODIFIED="1556942595643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/request_test" />
     <SUITE FILE_PATH="coverage/an_pro$pytest_for_welcome_test_WelcomeTest_test_register_mysql_op2.coverage" NAME="pytest for welcome_test.WelcomeTest.test_register_mysql_op2 Coverage Results" MODIFIED="1556641565097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/mysql_test" />
   </component>
@@ -97,34 +125,41 @@
     <session id="1136787342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="lastfailed" value="1" />
+          <entry key="py" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="15" />
-          <entry key="py" value="1186" />
+          <entry key="dummy" value="46" />
+          <entry key="py" value="3452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="1186" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="3452" />
         </counts>
       </usages-collector>
     </session>
@@ -132,25 +167,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route/welcome.py">
+        <entry file="file://$PROJECT_DIR$/op/register_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="63">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic_mail_op/send_mail_op.py">
+        <entry file="file://$PROJECT_DIR$/basic_mysql_op/op_database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/op/login_op.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/conn_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/request_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1557131624313" expanded="true" signature="244:372" ph="..." />
+                <marker date="1558357791810" expanded="true" signature="228:229" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,8 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -169,54 +230,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/anaconda/Lib/smtplib.py">
+        <entry file="file://$PROJECT_DIR$/route/home_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="787" column="8" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_mail_op/temp_storage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/request_test/welcome_request_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="54" column="18" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="54" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-                <marker date="1557130542472" expanded="true" signature="335:336" ph="..." />
-                <marker date="1557130542472" expanded="true" signature="1407:1408" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route/homepage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -225,26 +242,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/op/homepage_op.py">
+        <entry file="file://$PROJECT_DIR$/route/file_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1557130542441" expanded="true" signature="260:761" ph="..." />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/mysql_test/welcome_test.py">
+        <entry file="file://$PROJECT_DIR$/op/home_page_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="190">
+              <caret line="10" column="23" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1556955222060" expanded="true" signature="159:247" ph="..." />
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/op/file_page_op.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1558361104844" expanded="true" signature="163:164" ph="..." />
               </folding>
             </state>
           </provider>
@@ -274,7 +302,6 @@
         <option value="$PROJECT_DIR$/welcome.py" />
         <option value="$PROJECT_DIR$/mysql_op/homepage_mysql_op.py" />
         <option value="$PROJECT_DIR$/testing.py" />
-        <option value="$PROJECT_DIR$/testing/conn_test.py" />
         <option value="$PROJECT_DIR$/testing/welcome_test.py" />
         <option value="$PROJECT_DIR$/testing/mysql_test.py" />
         <option value="$PROJECT_DIR$/testing/request_test/request_test.py" />
@@ -282,19 +309,37 @@
         <option value="$PROJECT_DIR$/testing/request_test/welcome_request_test.py" />
         <option value="$PROJECT_DIR$/verification_op/register_verification_op.py" />
         <option value="$PROJECT_DIR$/basic_mail_op/mail_server_conn.py" />
-        <option value="$PROJECT_DIR$/basic_mail_op/temp_storage.py" />
         <option value="$PROJECT_DIR$/mysql_op/welcome_mysql_op.py" />
         <option value="$PROJECT_DIR$/verification_op/welcome_verification_op.py" />
-        <option value="$PROJECT_DIR$/testing/mysql_test/welcome_test.py" />
         <option value="$PROJECT_DIR$/op/welcome_mysql_op.py" />
-        <option value="$PROJECT_DIR$/testing/email_test.py" />
         <option value="$PROJECT_DIR$/basic_mail_op/mail_server.py" />
-        <option value="$PROJECT_DIR$/op/welcome_op.py" />
+        <option value="$PROJECT_DIR$/basic_mail_op/send_mail_op.py" />
+        <option value="$PROJECT_DIR$/testing/mysql_test/welcome_test.py" />
+        <option value="$PROJECT_DIR$/testing/mysql_test/homepage_test.py" />
+        <option value="$PROJECT_DIR$/testing/request_test/all_request_test.py" />
+        <option value="$PROJECT_DIR$/basic_mysql_op/op_mysql.py" />
+        <option value="$PROJECT_DIR$/basic_mysql_op/mysql_conn_info.py" />
         <option value="$PROJECT_DIR$/route/welcome.py" />
+        <option value="$PROJECT_DIR$/op/welcome_op.py" />
+        <option value="$PROJECT_DIR$/testing/email_test.py" />
+        <option value="$PROJECT_DIR$/op/op_test.py" />
+        <option value="$PROJECT_DIR$/basic_mail_op/temp_storage.py" />
+        <option value="$PROJECT_DIR$/route/login.py" />
+        <option value="$PROJECT_DIR$/route/register.py" />
+        <option value="$PROJECT_DIR$/op/login_op.py" />
+        <option value="$PROJECT_DIR$/basic_mail_op/op_email.py" />
         <option value="$PROJECT_DIR$/op/homepage_op.py" />
         <option value="$PROJECT_DIR$/route/homepage.py" />
+        <option value="$PROJECT_DIR$/basic_mail_op/op_storage.py" />
+        <option value="$PROJECT_DIR$/op/register_op.py" />
+        <option value="$PROJECT_DIR$/route/file.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/basic_mail_op/send_mail_op.py" />
+        <option value="$PROJECT_DIR$/testing/request_test.py" />
+        <option value="$PROJECT_DIR$/basic_file_op/op_file.py" />
+        <option value="$PROJECT_DIR$/route/file_page.py" />
+        <option value="$PROJECT_DIR$/op/file_page_op.py" />
+        <option value="$PROJECT_DIR$/testing/conn_test.py" />
+        <option value="$PROJECT_DIR$/basic_mysql_op/op_database.py" />
       </list>
     </option>
   </component>
@@ -304,7 +349,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
@@ -315,7 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,28 +392,36 @@
               <item name="cs_304_project_backend" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cs_304_project_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs_304_project_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="request_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../数据库/project_background/Fate_backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习\大三下\软件工程\project\code\cs_304_project_backend\basic_mysql_op" />
+      <recent name="F:\学习\大三下\软件工程\project\code\an_pro\testing\request_test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\学习\大三下\软件工程\project\code\cs_304_project_backend\testing" />
       <recent name="F:\学习\大三下\软件工程\project\code\an_pro\testing\mysql_test" />
       <recent name="F:\学习\大三下\软件工程\project\code\an_pro\route" />
       <recent name="F:\学习\大三下\软件工程\project\code\an_pro\mysql_op" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\学习\大三下\软件工程\project\code\an_pro\testing\request_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,30 +436,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.email_test">
-    <configuration name="conn_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="backend" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/mysql_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\学习\大三下\软件工程\project\code\cs_304_project_backend\testing\conn_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="email_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.conn_test">
+    <configuration name="conn_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -420,7 +450,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing/email_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing/conn_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="request_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing/request_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,7 +496,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for welcome_request_test.WelcomeTest.test_register_respond1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for all_request_test.Test.test_change_inside_password1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,57 +508,57 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;welcome_request_test.WelcomeTest.test_register_respond1&quot;" />
+      <option name="_new_target" value="&quot;all_request_test.Test.test_change_inside_password1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for welcome_test.WelcomeTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for all_request_test.Test.test_change_inside_password2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/mysql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/request_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;welcome_test.WelcomeTest&quot;" />
+      <option name="_new_target" value="&quot;all_request_test.Test.test_change_inside_password2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for welcome_test.WelcomeTest.test_register_mysql_op2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for all_request_test.Test.test_change_mail_verification2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/mysql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/request_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;welcome_test.WelcomeTest.test_register_mysql_op2&quot;" />
+      <option name="_new_target" value="&quot;all_request_test.Test.test_change_mail_verification2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Flask server.backend" />
-      <item itemvalue="Python tests.pytest for welcome_test.WelcomeTest" />
-      <item itemvalue="Python tests.pytest for welcome_test.WelcomeTest.test_register_mysql_op2" />
-      <item itemvalue="Python.conn_test (1)" />
-      <item itemvalue="Python tests.pytest for welcome_request_test.WelcomeTest.test_register_respond1" />
-      <item itemvalue="Python.email_test" />
+      <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_mail_verification2" />
+      <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_inside_password1" />
+      <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_inside_password2" />
+      <item itemvalue="Python.request_test" />
+      <item itemvalue="Python.conn_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.email_test" />
-        <item itemvalue="Python tests.pytest for welcome_request_test.WelcomeTest.test_register_respond1" />
-        <item itemvalue="Python tests.pytest for welcome_test.WelcomeTest.test_register_mysql_op2" />
-        <item itemvalue="Python.conn_test (1)" />
-        <item itemvalue="Python tests.pytest for welcome_test.WelcomeTest" />
+        <item itemvalue="Python.conn_test" />
+        <item itemvalue="Python.request_test" />
+        <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_inside_password2" />
+        <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_inside_password1" />
+        <item itemvalue="Python tests.pytest for all_request_test.Test.test_change_mail_verification2" />
       </list>
     </recent_temporary>
   </component>
@@ -524,47 +576,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_welcome_test_WelcomeTest - 2019.05.01 at 00h 01m 26s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail1 - 2019.05.06 at 20h 01m 49s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest_test_login_mysql_op1 - 2019.05.01 at 00h 02m 13s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest.test_login_mysql_op1" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail1 - 2019.05.06 at 20h 11m 47s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest_test_login_mysql_op1 - 2019.05.01 at 00h 05m 18s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest.test_login_mysql_op1" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail1 - 2019.05.06 at 20h 14m 24s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest - 2019.05.01 at 00h 06m 17s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail1 - 2019.05.06 at 20h 15m 54s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest_test_register_mysql_op2 - 2019.05.01 at 00h 07m 44s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest.test_register_mysql_op2" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail1 - 2019.05.06 at 20h 17m 22s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest_test_login_mysql_op2 - 2019.05.01 at 00h 10m 08s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest.test_login_mysql_op2" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail2 - 2019.05.06 at 20h 17m 32s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest - 2019.05.01 at 00h 24m 06s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail_verification1 - 2019.05.06 at 20h 22m 45s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail_verification1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_test_WelcomeTest_test_register_mysql_op2 - 2019.05.01 at 00h 26m 07s.xml">
-      <configuration name="pytest for welcome_test.WelcomeTest.test_register_mysql_op2" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_mail_verification2 - 2019.05.06 at 20h 22m 49s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_mail_verification2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_request_test_WelcomeTest_test_register_respond1 - 2019.05.01 at 00h 27m 15s.xml">
-      <configuration name="pytest for welcome_request_test.WelcomeTest.test_register_respond1" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_inside_password1 - 2019.05.06 at 20h 24m 14s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_inside_password1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_welcome_request_test_WelcomeTest_test_register_respond1 - 2019.05.04 at 12h 03m 20s.xml">
-      <configuration name="pytest for welcome_request_test.WelcomeTest.test_register_respond1" configurationId="tests" />
+    <history-entry file="pytest_for_all_request_test_Test_test_change_inside_password2 - 2019.05.06 at 20h 24m 18s.xml">
+      <configuration name="pytest for all_request_test.Test.test_change_inside_password2" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,62 +665,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testing.py" />
-    <entry file="file://D:/anaconda/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/mysql_test.py" />
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/request_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_mysql_op/op_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_mysql_op/mysql_conn_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <marker date="1556636624077" expanded="true" signature="157:162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/conn_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,77 +681,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verification_op/welcome_verification_op.py" />
-    <entry file="file://$PROJECT_DIR$/testing/mysql_test/welcome_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1556955222060" expanded="true" signature="159:247" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/request_test/welcome_request_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/op/welcome_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="54" column="18" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1557130542472" expanded="true" signature="335:336" ph="..." />
-            <marker date="1557130542472" expanded="true" signature="1407:1408" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/op/homepage_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1557130542441" expanded="true" signature="260:761" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/email_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/welcome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_mail_op/temp_storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/anaconda/Lib/smtplib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -758,34 +688,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/route/homepage.py">
+    <entry file="file://$PROJECT_DIR$/testing/mysql_test/__init__.py" />
+    <entry file="file://D:/anaconda/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="881" selection-start-line="881" selection-end-line="881" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="442" column="8" selection-start-line="442" selection-start-column="8" selection-end-line="442" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_mysql_op/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/basic_mysql_op/op_mysql.py" />
+    <entry file="file://$PROJECT_DIR$/basic_mysql_op/mysql_conn_info.py" />
+    <entry file="file://$PROJECT_DIR$/testing/mysql_test/welcome_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/mysql_test/homepage_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/op_test.py" />
+    <entry file="file://D:/anaconda/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/route/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_mail_op/op_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/email_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/request_test/all_request_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1773">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_mail_op/op_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1557665874175" expanded="true" signature="15:20" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/register_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_file_op/op_file.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/request_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558357791810" expanded="true" signature="228:229" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_mail_op/send_mail_op.py">
+    <entry file="file://$PROJECT_DIR$/route/file_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1557131624313" expanded="true" signature="244:372" ph="..." />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/home_page_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/file_page_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1558361104844" expanded="true" signature="163:164" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/login_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/conn_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_mysql_op/op_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
