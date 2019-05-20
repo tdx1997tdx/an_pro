@@ -19,11 +19,6 @@ def test():
         return '你好牛逼'
     return '你不牛逼'
 
-@app.route('/file_test',methods=['POST'])
-def test():
-    if(request.form.get('data1')=="我好牛逼"):
-        return '你好牛逼'
-    return '你不牛逼'
 
 if __name__ == '__main__':
     app.run()
