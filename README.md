@@ -80,3 +80,29 @@ new_password: xxxxxxx
 后端给前端的数字：  
 1： 修改成功  
 2： 失败，原密码输入错误  
+## 云端界面
+### 获取当前用户已有的文件名
+网址： /get_filenames  
+前端给后端的表单：  
+name: xxxxx  
+后端给前端：  
+begin xxxx.txt qqqq.txt kkkk.txt end
+
+### 上传
+网址： /file_upload  
+前端给后端的表单：  
+name: xxxxx  
+filename: xxxxxx  
+content: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+后端给前端：  
+1: 成功  
+2: 失败  
+
+### 下载
+网址： /file_download  
+前端给后端的表单：  
+name: xxxxx  
+filename: xxxxxx  
+后端给前端：  
+文件中的内容  
+
