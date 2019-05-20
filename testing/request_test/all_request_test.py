@@ -78,9 +78,9 @@ class Test(unittest.TestCase):
 
     def test_get_mail2(self):
         url = 'http://dexuannb.ml/get_mail'
-        data = {'name': 'tang23'}
+        data = {'name': 'ggh'}
         r = requests.post(url, data)
-        self.assertEqual('77777@qq.com', r.text)
+        self.assertEqual('690076053@qq.com', r.text)
 
     def test_change_mail1(self):
         url = 'http://dexuannb.ml/change_mail'
@@ -117,6 +117,44 @@ class Test(unittest.TestCase):
         data = {'name': 'tang','old_password': 'sadasdas','new_password': 'sadasd'}
         r = requests.post(url, data)
         self.assertEqual('2', r.text)
+
+    def test_get_filenames1(self):
+        url = 'http://dexuannb.ml/get_filenames'
+        data = {'name': 'ggh'}
+        r = requests.post(url, data)
+        self.assertEqual('begin test.txt test2.txt end', r.text)
+
+    def test_get_filenames2(self):
+        url = 'http://dexuannb.ml/get_filenames'
+        data = {'name': 'hhh'}
+        r = requests.post(url, data)
+        self.assertEqual('begin end', r.text)
+
+    def test_file_upload1(self):
+        url = 'http://dexuannb.ml/file_upload'
+        data = {'name': 'ggh', 'filename': 'test2.txt',
+                'content': 'askdfjaoidjadifaoi aoidfjaoijdfre vzxcziojdvsfcasfasf'}
+        r = requests.post(url, data)
+        self.assertEqual('1', r.text)
+
+    def test_file_upload2(self):
+        url = 'http://dexuannb.ml/file_upload'
+        data = {'name': 'ggt', 'filename': 'test2.txt',
+                'content': 'askdfjaoidjadifaoi aoidfjaoijdfre vzxcziojdvsfcasfasf'}
+        r = requests.post(url, data)
+        self.assertEqual('2', r.text)
+
+    def test_file_download1(self):
+        url = 'http://dexuannb.ml/file_download'
+        data = {'name': 'ggh', 'filename': 'test2.txt'}
+        r = requests.post(url, data)
+        self.assertEqual('askdfjaoidjadifaoi aoidfjaoijdfre vzxcziojdvsfcasfasf', r.text)
+
+    def test_file_download2(self):
+        url = 'http://dexuannb.ml/file_download'
+        data = {'name': 'ggh', 'filename': 'tes.txt'}
+        r = requests.post(url, data)
+        self.assertEqual('nodata', r.text)
 
 if __name__ == '__main__':
     unittest.main()
