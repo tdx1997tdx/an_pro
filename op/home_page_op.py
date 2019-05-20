@@ -6,7 +6,7 @@ def get_mail_op(name):
     conn=opsql.Database()
     sql = "select mail from user where username=%s"
     para=[name]
-    result = conn.select(sql,para)
+    result = [i for i in conn.select(sql,para)]
     conn.close()
     return result[0][0]
 
@@ -14,7 +14,7 @@ def change_mail_op(name,new_mail):
     conn = opsql.Database()
     sql = "select mail from user where mail=%s"
     para=[new_mail]
-    result = conn.select(sql,para)
+    result = [i for i in conn.select(sql,para)]
     conn.close()
     if result!=[]:
         return '2'
@@ -42,9 +42,9 @@ def change_mail_verification_op(name,new_mail,verification_code):
 
 def change_inside_password_op(name,old_password,new_password):
     conn = opsql.Database()
-    sql="select * from user where username=%s and password=%s"
+    sql="select username from user where username=%s and password=%s"
     para=[name, old_password]
-    result = conn.select(sql,para)
+    result = [i for i in conn.select(sql,para)]
     if not result:
         return '2'
     sql2="update user set password=%s where username=%s"

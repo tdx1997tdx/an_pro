@@ -4,9 +4,9 @@ from basic_mail_op.op_storage import storage
 
 def login_op(username,password):
     conn=opsql.Database()
-    sql="select * from user where username=%s and password=%s"
+    sql="select username from user where username=%s and password=%s"
     para=[username, password]
-    result =conn.select(sql,para)
+    result =[i for i in conn.select(sql,para)]
     conn.close()
     return '2' if result==[] else '1'
 
@@ -14,7 +14,7 @@ def change_password_op(name,mail):
     conn = opsql.Database()
     sql = "select username,mail from user where username=%s or mail=%s"
     para=[name,mail]
-    result = conn.select(sql,para)
+    result = [i for i in conn.select(sql,para)]
     conn.close()
     if not result:
         return '2'

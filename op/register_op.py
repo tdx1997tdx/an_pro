@@ -4,14 +4,14 @@ from basic_mail_op.op_storage import storage
 
 def register_op(name, mail):
     conn = opsql.Database()
-    name_sql="select * from user where username=%s"
+    name_sql="select username from user where username=%s"
     name_para=[name]
-    name_result = conn.select(name_sql,name_para)
+    name_result = [i for i in conn.select(name_sql,name_para)]
     if name_result!=[]:
         return '2'
-    mail_sql = "select * from user where mail=%s"
+    mail_sql = "select username from user where mail=%s"
     mail_para=[mail]
-    mail_result = conn.select(mail_sql,mail_para)
+    mail_result = [i for i in conn.select(mail_sql,mail_para)]
     conn.close()
     if mail_result!=[]:
         return '3'
