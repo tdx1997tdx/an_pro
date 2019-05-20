@@ -6,7 +6,7 @@ homepage_page=Blueprint("homepage_page",__name__)
 '''
 根据姓名获取邮箱
 '''
-@homepage_page.route('/get_mail',methods=['GET','POST'])
+@homepage_page.route('/get_mail',methods=['POST'])
 def get_mail():
     name = request.form.get('name')
     return hop.get_mail_op(name)
@@ -14,7 +14,7 @@ def get_mail():
 '''
 根据姓名或者邮箱变更邮箱
 '''
-@homepage_page.route('/change_mail',methods=['GET','POST'])
+@homepage_page.route('/change_mail',methods=['POST'])
 def change_mail():
     name = request.form.get('name')
     new_mail = request.form.get('new_mail')
@@ -27,7 +27,7 @@ def change_mail():
 '''
 变更邮箱验证
 '''
-@homepage_page.route('/change_mail_verification',methods=['GET','POST'])
+@homepage_page.route('/change_mail_verification',methods=['POST'])
 def change_mail_verification():
     name = request.form.get('name')
     new_mail = request.form.get('new_mail')
@@ -42,7 +42,7 @@ def change_mail_verification():
 '''
 变更密码
 '''
-@homepage_page.route('/change_inside_password',methods=['GET','POST'])
+@homepage_page.route('/change_inside_password',methods=['POST'])
 def change_inside_password():
     name = request.form.get('name')
     old_password = request.form.get('old_password')

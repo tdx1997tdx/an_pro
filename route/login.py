@@ -6,7 +6,7 @@ login=Blueprint("login",__name__)
 '''
 登陆功能，输入name和password验证正确性
 '''
-@login.route('/login',methods=['GET','POST'])
+@login.route('/login',methods=['POST'])
 def login_op():
     username = request.form.get('name')
     password = request.form.get('password')
@@ -15,7 +15,7 @@ def login_op():
 '''
 忘记密码
 '''
-@login.route('/change_password',methods=['GET','POST'])
+@login.route('/change_password',methods=['POST'])
 def change_password():
     name = request.form.get('name')
     mail = request.form.get('mail')
@@ -28,7 +28,7 @@ def change_password():
 '''
 忘记密码验证
 '''
-@login.route('/change_password_verification',methods=['GET','POST'])
+@login.route('/change_password_verification',methods=['POST'])
 def change_password_verification():
     name = request.form.get('name')
     mail = request.form.get('mail')

@@ -6,7 +6,7 @@ register=Blueprint("register",__name__)
 '''
 注册
 '''
-@register.route('/register',methods=['GET','POST'])
+@register.route('/register',methods=['POST'])
 def register_op():
     username = request.form.get('name')
     mail = request.form.get('mail')
@@ -15,7 +15,7 @@ def register_op():
 '''
 注册认证
 '''
-@register.route('/register_verification',methods=['GET','POST'])
+@register.route('/register_verification',methods=['POST'])
 def register_verification():
     username = request.form.get('name')
     password = request.form.get('password')
