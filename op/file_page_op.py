@@ -16,7 +16,9 @@ def file_upload_op(name,filename,content):
     sql = "select file_id from file where username=%s and filename=%s"
     para = [name,filename]
     result = [i for i in conn.select(sql, para)]
+    print(name,filename,content)
     if result==[]:
+
         insert_sql = 'insert into file (filename,username,content) values (%s,%s,%s)'
         insert_para=[filename,name,content]
         is_success = conn.iur(insert_sql, insert_para)
