@@ -17,4 +17,5 @@ def image_translation_op(name,image):
     final_image = Image.open(path)
     code = pytesseract.image_to_string(final_image, lang='eng')
     os.remove(path)
+    print(code)
     return code
