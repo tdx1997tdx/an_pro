@@ -74,7 +74,7 @@ class Test(unittest.TestCase):
         url = 'http://dexuannb.ml/get_mail'
         data = {'name': 'tang'}
         r = requests.post(url, data)
-        self.assertEqual('798637048@qq.com', r.text)
+        self.assertEqual('11610103@mail.sustc.edu.cn', r.text)
 
     def test_get_mail2(self):
         url = 'http://dexuannb.ml/get_mail'
@@ -120,9 +120,9 @@ class Test(unittest.TestCase):
 
     def test_get_filenames1(self):
         url = 'http://dexuannb.ml/get_filenames'
-        data = {'name': 'ggh'}
+        data = {'name': 'gght'}
         r = requests.post(url, data)
-        self.assertEqual('begin test.txt test2.txt end', r.text)
+        self.assertEqual('begin end', r.text)
 
     def test_get_filenames2(self):
         url = 'http://dexuannb.ml/get_filenames'
@@ -142,7 +142,7 @@ class Test(unittest.TestCase):
         data = {'name': 'ggt', 'filename': 'test2.txt',
                 'content': 'askdfjaoidjadifaoi aoidfjaoijdfre vzxcziojdvsfcasfasf'}
         r = requests.post(url, data)
-        self.assertEqual('2', r.text)
+        self.assertEqual('1', r.text)
 
     def test_file_download1(self):
         url = 'http://dexuannb.ml/file_download'
