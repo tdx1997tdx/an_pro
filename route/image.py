@@ -9,6 +9,7 @@ image=Blueprint("image",__name__)
 def image_translation():
     image = request.form.get('image')
     name = request.form.get('name')
+    
     if not (image and name):
-        return ''
+        return 'no data'
     return io.image_translation_op(name,image)
