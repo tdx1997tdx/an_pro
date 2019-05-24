@@ -4,7 +4,6 @@ from basic_file_op import op_image as img
 from PIL import Image
 
 def image_translation_op(name,image):
-    print(image)
     decode_image=base64.b64decode(image)
     path=img.dir_path+name
     if(not os.path.exists(img.dir_path)):
@@ -16,4 +15,5 @@ def image_translation_op(name,image):
     file.close()
     final_image = Image.open(path)
     code = pytesseract.image_to_string(final_image, lang='eng')
+    os.remove(path)
     return code
