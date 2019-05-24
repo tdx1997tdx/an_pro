@@ -105,4 +105,10 @@ name: xxxxx
 filename: xxxxxx  
 后端给前端：  
 文件中的内容  
-
+## 图片转换
+网址： /image_translation  
+前端给后端的表单：  
+name: xxxxx  
+image: base64编码图片文件  
+后端给前端：  
+识别内容  
