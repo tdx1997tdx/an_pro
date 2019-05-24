@@ -4,8 +4,8 @@ from basic_file_op import op_image as img
 from PIL import Image
 
 def image_translation_op(name,image):
-    decode_image=base64.b64decode(image)
     print(image)
+    decode_image=base64.b64decode(image)
     path=img.dir_path+name
     if(not os.path.exists(img.dir_path)):
         os.makedirs(img.dir_path)
