@@ -15,5 +15,5 @@ def image_translation_op(name,image):
     file.write(decode_image)
     file.close()
     final_image = Image.open(path)
-    code = pytesseract.image_to_string(final_image, lang='chi_sim')
+    code = pytesseract.image_to_string(final_image, lang='eng')
     return code
