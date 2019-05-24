@@ -8,6 +8,7 @@ image=Blueprint("image",__name__)
 @image.route('/image_translation',methods=['POST'])
 def image_translation():
     image = request.form.get('image')
-    if(not image):
+    name = request.form.get('name')
+    if not (image and name):
         return ''
-    return io.image_translation_op(image)
+    return io.image_translation_op(name,image)
