@@ -5,12 +5,12 @@ from PIL import Image
 
 def image_translation_op(name,image):
     print(image)
-    #decode_image=base64.b64decode(image)
+    decode_image=base64.b64decode(image)
     path=img.dir_path+name
     if(not os.path.exists(img.dir_path)):
         os.makedirs(img.dir_path)
     file = open(path, 'wb')
-    file.write(image)
+    file.write(decode_image)
     file.close()
     final_image = Image.open(path)
     code = pytesseract.image_to_string(final_image, lang='chi_sim')
