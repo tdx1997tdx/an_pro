@@ -36,7 +36,7 @@ def image_test():
     with open("F:\cs_304_pro/test.jpg", "rb") as f:  # 转为二进制格式
         base64_data = base64.b64encode(f.read())  # 使用base64进行加密
         print(base64_data)
-    data = {'image':base64_data}
+    data = {'image':base64_data,'name':'tang'}
     r = requests.post(url, data)
     print(r.text)
 
