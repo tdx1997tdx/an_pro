@@ -33,10 +33,11 @@ def file_test3():
     print(r.text)
 def image_test():
     url = 'http://dexuannb.ml/image_translation'
-    with open("F:\cs_304_pro/test.jpg", "rb") as f:  # 转为二进制格式
-        base64_data = base64.b64encode(f.read())  # 使用base64进行加密
-        print(base64_data)
-    data = {'image':base64_data,'name':'tang'}
+    with open("F:\cs_304_pro/test2.png", "rb") as f:  # 转为二进制格式
+        #base64_data = base64.b64encode(f.read())  # 使用base64进行加密
+        data=f.read()
+        print(data)
+    data = {'image':data,'name':'tang'}
     r = requests.post(url, data)
     print(r.text)
 
