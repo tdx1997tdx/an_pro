@@ -1,6 +1,6 @@
 import pymysql
-conn_info = ('127.0.0.1',3306,'tang','dexuan97','cs304_project')
-conn_info2 = ('107.175.17.248',3306,'tang','dexuan97','cs304_project')
+conn_info = ('127.0.0.1',3306, 'root', 'dexuan97', 'cs304_project')
+conn_info2 = ('107.175.17.248', 3306, 'root', 'dexuan97', 'cs304_project')
 
 
 class Database:
