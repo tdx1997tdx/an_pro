@@ -11,9 +11,11 @@ app.register_blueprint(register)
 app.register_blueprint(file_page)
 app.register_blueprint(image)
 
-@app.route('/',methods=['GET','POST'])
+
+@app.route('/', methods=['GET', 'POST'])
 def hello_world():
     return '欢迎来到cs_304期末project'
+
 
 @app.route('/test',methods=['GET','POST'])
 def test():
