@@ -10,6 +10,7 @@ register=Blueprint("register",__name__)
 def register_op():
     username = request.form.get('name')
     mail = request.form.get('mail')
+    print(mail)
     return rop.register_op(username,mail)
 
 '''
