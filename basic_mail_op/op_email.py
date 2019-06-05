@@ -5,13 +5,16 @@ from basic_mail_op.op_storage import storage
 import random
 pass1='qimddlwbnympbfai'
 pass2='pehiokuarlmibdcd'
+
+
 class Email:
     def __init__(self,password=pass1):
         self.password=password
         self.smtp = smtplib.SMTP()
         self.connect()
+
     def connect(self):
-        self.smtp.connect('smtp.qq.com',25)
+        self.smtp.connect('smtp.qq.com', 25)
         print('连接成功')
         self.smtp.login('798637048@qq.com', pass2)
         print('登陆成功')
