@@ -3,24 +3,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 from basic_mail_op.op_storage import storage
 import random
-pass1='qimddlwbnympbfai'
-pass2='pehiokuarlmibdcd'
-
 
 class Email:
-    def __init__(self,password=pass1):
-        self.password=password
-        self.smtp = smtplib.SMTP()
-        self.connect()
-
-    def connect(self):
-        self.smtp.connect('smtp.qq.com', 25)
-        print('连接成功')
-        self.smtp.login('798637048@qq.com', pass2)
-        print('登陆成功')
-
-    def close(self):
-        self.smtp.quit()
 
     def send_email(self,name,email_address):
         # 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
@@ -31,7 +15,8 @@ class Email:
         subject = 'Note Your Life的验证码'
         message['Subject'] = Header(subject, 'utf-8')
         try:
-            self.smtp.sendmail('798637048@qq.com', email_address, message.as_string())
+            smtpObj = smtplib.SMTP('localhost')
+            smtpObj.sendmail('798637048@qq.com', email_address, message.as_string())
             storage.add(name,v_code)
             print('发送成功')
             return True
